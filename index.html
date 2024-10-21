@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="branding">My News</div>
+            <form id="search">
+                <input type="search" placeholder="Search here" id="search-input">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass icon"></i></button>
+            </form>
+        <div id="filters">
+            <div class="filter1 filter-cat">
+                <select id="filter">
+                    <option class="filter" hidden>Sort By</option>
+                    <option class="filter" value="publishedAt">Published At</option>
+                    <option class="filter" value="relevance">Relevancy</option>
+                    <option class="filter" value="popularity">Popularity</option>
+                </select>
+            </div>
+            <div class="filter2 filter-cat">
+                <select id="language-filter">
+                    <option hidden>Language</option>
+                    <option class="filter" value="en">English</option>
+                    <option class="filter" value="es">Spanish</option>
+                    <option class="filter" value="fr">French</option>
+                    <option class="filter" value="de">German</option>
+                    <option class="filter" value="hi">Hindi</option>
+                    <option class="filter" value="pa">Punjabi</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <!-- <main id="news-container">
+        <div class="card">
+            <div class="source">Source</div>
+                <img class="image" src="https://" height="250px" width="350px">
+            <div class="news">
+                <h2 id="title">News 1</h2>
+                <span id="author">Author| Date time</span>
+                <p id="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt maiores assumenda maxime repellendus dolor veniam earum placeat facilis ab reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatem quos et reprehenderit atque cumque rerum saepe est exercitationem doloremque?</p>
+            </div>
+        </div>
+    </main> -->
+    <main id="news-container">
+        <div class="card" style="display: none;">
+            <div class="source"></div>
+                <img class="image" src="">
+            <div class="news">
+                <h2 id="title"></h2>
+                <span id="author"></span>
+                <p id="desc"></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js" type="module"></script>
+    
+</body>
+</html>
+
+<!-- 837058bf83caae530e3a822c2a5a55d1 -->
